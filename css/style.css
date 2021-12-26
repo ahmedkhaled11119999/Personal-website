@@ -9,7 +9,6 @@ Logo : #325F66 , #0D3A40
 
 Font:RaleWay
 */
-
 #website-card {
   background-color: white;
   border-radius: 30px;
@@ -20,7 +19,7 @@ Font:RaleWay
   position: fixed;
   bottom: 5%;
   right: 5%;
-  background-color: #135058;
+  background-color: #325f66;
   border-radius: 10px;
   border: none;
   padding: 1rem;

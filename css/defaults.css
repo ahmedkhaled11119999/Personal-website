@@ -11,7 +11,9 @@ Logo : #325F66 , #0D3A40
 
 Font:RaleWay
 */
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: #135058;
   background: linear-gradient(90deg, #135058 0%, #f1f2b5 100%);
