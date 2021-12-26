@@ -1,0 +1,29 @@
+/* 
+Color Palette:
+-->#FFFFFF, #fbfbec, #F1F2B5 , #F1F380 ,#afc19a, #7B9C84 , #325F66 , #135058 ,#0D3A40
+
+Background Gradient : #F1F2B5 , #135058
+Dark Shades : #F1F380 , #0D3A40
+Light Shades :#FFFFFF ,#fbfbec, #F1F2B5,#afc19a, #7B9C84 , #135058
+Logo : #325F66 , #0D3A40
+
+Font:RaleWay
+*/
+
+.nav-item {
+  margin: 0 1rem;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+  padding: 0.5rem;
+}
+
+.navbar-collapse .navbar-nav .nav-item.active .nav-link {
+  display: inline-block;
+  color: white;
+  background-color: #325f66;
+  padding: 0.5rem;
+  border-radius: 20px;
+}

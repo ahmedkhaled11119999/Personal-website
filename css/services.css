@@ -1,0 +1,46 @@
+.services-icons {
+  margin-top: 4rem;
+  height: 40%;
+  width: 40%;
+}
+
+.services-card-container {
+  perspective: 1000px;
+  height: 500px;
+}
+
+.services-card {
+  border-radius: 50px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.services-card-front,
+.services-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.services-card-back {
+  transform: rotateY(180deg);
+  background-color: #fbfbec;
+  border-radius: 50px;
+}
+
+.services-card-back-top-badge {
+  color: white;
+  border-radius: 30px 30px 0 0;
+  height: 25%;
+  padding: 1.5rem;
+}
+
+.services-card-paragraph {
+  padding: 3rem 2rem;
+  line-height: 1.3;
+}

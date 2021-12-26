@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap");
+
+/* 
+Color Palette:
+-->#FFFFFF, #fbfbec, #F1F2B5 , #F1F380 ,#afc19a, #7B9C84 , #325F66 , #135058 ,#0D3A40
+
+Background Gradient : #F1F2B5 , #135058
+Dark Shades : #F1F380 , #0D3A40
+Light Shades :#FFFFFF ,#fbfbec, #F1F2B5,#afc19a, #7B9C84 , #135058
+Logo : #325F66 , #0D3A40
+
+Font:RaleWay
+*/
+
+body {
+  background: #135058;
+  background: linear-gradient(90deg, #135058 0%, #f1f2b5 100%);
+  font-family: "Raleway";
+}
+
+.dark-bg-shade-1 {
+  background-color: #135058;
+}
+.dark-color-shade-1 {
+  color: #135058;
+}
+
+.light-bg-shade-1 {
+  background-color: #7b9c84;
+}
+
+.linear-grad-dark {
+  background: #135058;
+  background: linear-gradient(90deg, #7b9c84 0%, #135058 100%);
+}
+
+.form-input-style {
+  border: 2px rgba(0, 0, 0, 0.5) solid;
+  color: white;
+}
+
+.form-input-style::placeholder {
+  color: #ffffff80;
+}
+
+.form-input-style:focus {
+  border: 2px #f1f380 solid !important;
+  background-color: #7b9c84;
+  box-shadow: 0px 0px 10px 2px #13505840 !important;
+  outline: none;
+  color: white;
+}
+
+.form-label-style {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+}
+
+.button-filled,
+.button-outlined {
+  box-shadow: 0px 0px 10px 2px #13505840 !important;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  outline: none;
+}
+
+.button-filled {
+  border: none;
+  background: #135058;
+  background: linear-gradient(90deg, #7b9c84 0%, #135058 100%);
+  color: white;
+}
+
+.button-filled:focus {
+  outline-color: transparent;
+}
+
+.button-outlined {
+  background: white;
+  border: 1px #135058 solid;
+}
+.button-filled:hover {
+  color: white;
+}
